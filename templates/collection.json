@@ -3,16 +3,97 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "16323209724b29df83": {
+      "type": "featured-product",
+      "blocks": {
+        "16323209724b29df83-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16323209724b29df83-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16323209724b29df83-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16323209724b29df83-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16323209724b29df83-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16323209724b29df83-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16323209724b29df83-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16323209724b29df83-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16323209724b29df83-0",
+        "16323209724b29df83-1",
+        "16323209724b29df83-2",
+        "16323209724b29df83-3",
+        "16323209724b29df83-4",
+        "16323209724b29df83-5",
+        "16323209724b29df83-6",
+        "16323209724b29df83-7"
+      ],
+      "settings": {
+        "product": "",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "16323209724b29df83"
   ]
 }
