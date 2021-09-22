@@ -7,13 +7,13 @@
           "type": "heading",
           "settings": {
             "heading": "Voguish Crush",
-            "heading_size": "medium"
+            "heading_size": "large"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Our Collection",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -42,21 +42,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "About Voguish Crush",
+            "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Welcome to Voguish Crush, your number one source for<br\/>all your needs and products. We're dedicated to giving you the very best of solution<br\/>of your needs, with a focus on dependability, customer service and uniqueness. We<br\/>now serve customers all over the world. <br\/>We hope you enjoy our products as much as we enjoy offering them to you.<\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Looking for Something",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false
           }
         }
